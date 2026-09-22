@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="NEJI senior AI full stack engineer animated portfolio banner">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080d1b"/><stop offset=".55" stop-color="#101b34"/><stop offset="1" stop-color="#090f20"/></linearGradient>
+ <linearGradient id="neon" x2="1"><stop stop-color="#51e5ff"/><stop offset=".52" stop-color="#7e9bff"/><stop offset="1" stop-color="#b78cff"/></linearGradient>
+ <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#182845"/><stop offset="1" stop-color="#10192d"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#3474c9" stop-opacity=".32"/><stop offset="1" stop-color="#3474c9" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#6485b7" stroke-opacity=".11"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+ <style>
+ text{font-family:Inter,Segoe UI,Arial,sans-serif} .muted{fill:#90a3c3} .white{fill:#f3f7ff} .small{font-size:12px;letter-spacing:2.2px} .mono{font-family:Consolas,Menlo,monospace} .node{fill:#13243f;stroke:#486c9b;stroke-width:1.3} .link{fill:none;stroke:#47678d;stroke-width:1.5;stroke-dasharray:5 7;animation:flow 4s linear infinite} .orbit{transform-origin:929px 203px;animation:spin 36s linear infinite} .orbit2{transform-origin:929px 203px;animation:spin 25s linear infinite reverse} .blink{animation:blink 3s ease-in-out infinite} .rise{animation:rise 5s ease-in-out infinite} @keyframes flow{to{stroke-dashoffset:-72}} @keyframes spin{to{transform:rotate(360deg)}} @keyframes blink{50%{opacity:.3}} @keyframes rise{50%{transform:translateY(-5px)}}
+ </style>
+</defs>
+<rect width="1200" height="420" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="22" fill="url(#grid)"/>
+<circle cx="940" cy="196" r="250" fill="url(#halo)"/>
+<path d="M0 62H1200 M0 357H1200" stroke="#334a6e" stroke-opacity=".55"/>
+<rect x="34" y="23" width="8" height="8" rx="2" fill="#58e3c0" class="blink"/>
+<text x="53" y="32" fill="#9eb3d2" font-size="11" letter-spacing="2.5">NEJI / ENGINEERING PORTFOLIO</text>
+<text x="1165" y="32" text-anchor="end" fill="#8da5c8" font-size="11" class="mono">SYSTEMS ONLINE  ●</text>
+<text x="57" y="127" font-size="76" font-weight="800" letter-spacing="6" fill="#f4f7ff">NEJI<tspan fill="url(#neon)">.</tspan></text>
+<rect x="58" y="143" width="46" height="3" rx="1.5" fill="url(#neon)"><animate attributeName="width" values="46;120;46" dur="5s" repeatCount="indefinite"/></rect>
+<text x="58" y="179" fill="#dce8ff" font-size="21" font-weight="600" letter-spacing="1.1">Senior AI Full Stack Engineer</text>
+<text x="58" y="210" class="muted" font-size="15">Architecting intelligent products. Engineering for scale.</text>
+<g transform="translate(58 244)">
+ <rect width="148" height="34" rx="17" fill="#142f43" stroke="#287c88"/><circle cx="18" cy="17" r="4" fill="#54e4c4" class="blink"/><text x="31" y="22" fill="#b4f7e8" font-size="11" font-weight="600" letter-spacing="1">AI ENGINEERING</text>
+ <rect x="160" width="137" height="34" rx="17" fill="#192b4a" stroke="#425d9d"/><text x="177" y="22" fill="#c9d9ff" font-size="11" font-weight="600" letter-spacing="1">FULL STACK</text>
+ <rect x="309" width="157" height="34" rx="17" fill="#241d42" stroke="#71549e"/><text x="326" y="22" fill="#e1d2ff" font-size="11" font-weight="600" letter-spacing="1">CLOUD SYSTEMS</text>
+</g>
+<g transform="translate(58 308)"><path d="M0 0H470" stroke="#354d71"/><text y="26" fill="#8ea7c8" font-size="12" class="mono">REACT  /  NEXT.JS  /  PYTHON  /  POSTGRESQL  /  DOCKER</text></g>
+<!-- Animated systems diagram -->
+<g class="orbit"><circle cx="929" cy="203" r="128" fill="none" stroke="#4b75a8" stroke-opacity=".36" stroke-dasharray="4 9"/><circle cx="929" cy="75" r="4" fill="#5de2ff"/></g>
+<g class="orbit2"><circle cx="929" cy="203" r="94" fill="none" stroke="#7778c9" stroke-opacity=".4" stroke-dasharray="3 10"/><circle cx="1023" cy="203" r="3.5" fill="#b69aff"/></g>
+<path class="link" d="M929 203L785 116 M929 203L1070 116 M929 203L785 289 M929 203L1070 289"/>
+<g class="rise"><rect x="859" y="154" width="140" height="98" rx="19" fill="#122943" stroke="#5dbbd9" stroke-width="1.6"/><rect x="868" y="163" width="122" height="80" rx="14" fill="#153655"/><circle cx="929" cy="192" r="16" fill="none" stroke="url(#neon)" stroke-width="2"/><path d="M921 191l6-6m10 6l-6 6m-2-14v18" stroke="#9ceeff" stroke-width="2" stroke-linecap="round"/><text x="929" y="224" text-anchor="middle" fill="#e6f4ff" font-size="12" font-weight="700" letter-spacing="2">NEJI / CORE</text></g>
+<g class="node"><rect x="723" y="87" width="132" height="57" rx="12"/><rect x="1005" y="87" width="132" height="57" rx="12"/><rect x="723" y="260" width="132" height="57" rx="12"/><rect x="1005" y="260" width="132" height="57" rx="12"/></g>
+<g text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.3" fill="#e4edff"><text x="789" y="111">AI / AGENTS</text><text x="1071" y="111">APPLICATIONS</text><text x="789" y="284">DATA LAYER</text><text x="1071" y="284">CLOUD / OPS</text></g>
+<g text-anchor="middle" font-size="10" fill="#8faacc"><text x="789" y="128">LLM · RAG</text><text x="1071" y="128">WEB · APIs</text><text x="789" y="301">SQL · VECTOR</text><text x="1071" y="301">DEPLOY · SCALE</text></g>
+<circle r="4" fill="#5ce5ff"><animateMotion dur="4s" repeatCount="indefinite" path="M929 203L785 116L929 203L1070 116L929 203L1070 289L929 203L785 289L929 203"/></circle>
+<text x="58" y="387" fill="#8099bb" font-size="11" letter-spacing="2">BUILD WITH INTENT  •  SHIP WITH CONFIDENCE  •  SCALE WITH PURPOSE</text>
+<text x="1150" y="387" text-anchor="end" fill="#6b8bb6" font-size="11" class="mono">01 / ∞</text>
+<rect x="0" y="416" width="1200" height="4" fill="url(#neon)" opacity=".8"/>
+</svg>
