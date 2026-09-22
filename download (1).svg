@@ -1,0 +1,299 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="NEJI - Senior AI Full Stack Engineer">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1525"></stop>
+      <stop offset="100%" stop-color="#182c45"></stop>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"></stop>
+      <stop offset="50%" stop-color="#6366f1"></stop>
+      <stop offset="100%" stop-color="#a855f7"></stop>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="6s" repeatCount="indefinite"></animateTransform>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <style>
+      text {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .muted {
+        fill: #94a3b8;
+        letter-spacing: 4px;
+      }
+
+      .heading {
+        fill: #f8fafc;
+        font-weight: 700;
+      }
+
+      .card {
+        fill: #17263b;
+        stroke: #334155;
+        stroke-width: 1;
+      }
+
+      .card-title {
+        fill: #f1f5f9;
+        font-size: 14px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .card-sub {
+        fill: #94a3b8;
+        font-size: 11px;
+        letter-spacing: 1px;
+        text-anchor: middle;
+      }
+
+      .fade {
+        animation: fadeIn 2s ease-out both;
+      }
+
+      .pulse {
+        animation: pulse 3s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+
+      .float {
+        animation: float 4s ease-in-out infinite;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(8px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 0.65; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-4px); }
+      }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="460" rx="18" fill="url(#bg)"></rect>
+
+  <g stroke="#334155" opacity="0.16">
+    <path d="M0 80 H1200"></path>
+    <path d="M0 160 H1200"></path>
+    <path d="M0 240 H1200"></path>
+    <path d="M0 320 H1200"></path>
+    <path d="M0 400 H1200"></path>
+    <path d="M200 0 V460"></path>
+    <path d="M400 0 V460"></path>
+    <path d="M600 0 V460"></path>
+    <path d="M800 0 V460"></path>
+    <path d="M1000 0 V460"></path>
+  </g>
+
+  <!-- TOP BAR -->
+
+  <text x="45" y="38" class="muted" font-size="11">
+    BUILD / LEARN / SOLVE / IMPROVE / REPEAT
+  </text>
+
+  <line x1="475" y1="34" x2="920" y2="34" stroke="#475569"></line>
+
+  <text x="1150" y="38" text-anchor="end" class="muted" font-size="11">
+    // NEJI.DEV
+  </text>
+
+  <!-- MAIN NAME -->
+
+  <g class="fade">
+    <text x="45" y="138" font-size="91" font-weight="800" letter-spacing="9" fill="#f8fafc">
+      NEJ
+    </text>
+
+    <text x="260" y="138" font-size="91" font-weight="800" fill="url(#accent)" filter="url(#glow)">
+      I
+    </text>
+
+    <text x="48" y="174" fill="#e2e8f0" font-size="17" letter-spacing="5">
+      SENIOR AI FULL STACK ENGINEER
+    </text>
+
+    <text x="48" y="202" class="muted" font-size="11">
+      TURNING IDEAS INTO INTELLIGENT SOLUTIONS
+    </text>
+  </g>
+
+  <!-- ANIMATED ACCENT LINE -->
+
+  <rect x="48" y="218" width="110" height="3" rx="2" fill="url(#accent)">
+    <animate attributeName="width" values="50;140;50" dur="4s" repeatCount="indefinite"></animate>
+  </rect>
+
+  <!-- ENGINEERING PRINCIPLES -->
+
+  <line x1="725" y1="77" x2="725" y2="193" stroke="#64748b"></line>
+
+  <g class="muted" font-size="12">
+    <text x="755" y="95">AI-POWERED</text>
+    <text x="755" y="123">SCALABLE</text>
+    <text x="755" y="151">USER-FOCUSED</text>
+    <text x="755" y="179">REAL IMPACT</text>
+  </g>
+
+  <!-- RIGHT SIDE MESSAGE -->
+
+  <g font-size="19" letter-spacing="6" fill="#f8fafc">
+
+    <text x="1010" y="92">GOOD</text>
+    <text x="1010" y="120">CODE</text>
+    <text x="1010" y="148">BRIGHTER</text>
+
+    <text x="1010" y="176" fill="url(#accent)" font-weight="700">
+      FUTURE
+    </text>
+  </g>
+
+  <rect x="1010" y="191" width="75" height="3" fill="url(#accent)"></rect>
+
+  <!-- CAPABILITY CARDS -->
+
+  <g class="float">
+
+    <rect class="card" x="45" y="250" width="260" height="105" rx="12"></rect>
+
+    <text x="175" y="289" fill="#a78bfa" font-size="25" text-anchor="middle" class="pulse">
+      AI
+    </text>
+
+    <text class="card-title" x="175" y="316">
+      GENERATIVE AI
+    </text>
+
+    <text class="card-sub" x="175" y="338">
+      LLMS · RAG · AGENTS
+    </text>
+
+  </g>
+
+  <g class="float">
+
+    <rect class="card" x="325" y="250" width="260" height="105" rx="12"></rect>
+
+    <g stroke="#38bdf8" stroke-width="2" fill="none" class="pulse">
+
+      <ellipse cx="455" cy="279" rx="15" ry="5"></ellipse>
+
+      <path d="M440 279 V297
+               Q455 308 470 297
+               V279"></path>
+
+      <path d="M440 288
+               Q455 299 470 288"></path>
+
+    </g>
+
+    <text class="card-title" x="455" y="316">
+      DATA &amp; SYSTEMS
+    </text>
+
+    <text class="card-sub" x="455" y="338">
+      SCALABLE SOLUTIONS
+    </text>
+
+  </g>
+
+  <g class="float">
+
+    <rect class="card" x="605" y="250" width="260" height="105" rx="12"></rect>
+
+    <text x="735" y="290" fill="#a855f7" font-size="28" text-anchor="middle" class="pulse">
+      &lt;/&gt;
+    </text>
+
+    <text class="card-title" x="735" y="316">
+      APPLICATIONS
+    </text>
+
+    <text class="card-sub" x="735" y="338">
+      WEB · MOBILE · APIS
+    </text>
+
+  </g>
+
+  <g class="float">
+
+    <rect class="card" x="885" y="250" width="260" height="105" rx="12"></rect>
+
+    <g fill="none" stroke="#38bdf8" stroke-width="2.5" class="pulse">
+
+      <path d="M1000 285
+               C988 285 988 270 1000 269
+               C1005 255 1025 257 1028 271
+               C1045 270 1045 286 1030 286
+               Z"></path>
+
+    </g>
+
+    <text class="card-title" x="1015" y="316">
+      CLOUD &amp; DEVOPS
+    </text>
+
+    <text class="card-sub" x="1015" y="338">
+      AWS · DOCKER · K8S
+    </text>
+
+  </g>
+
+  <!-- TECHNOLOGY SECTION -->
+
+  <text x="48" y="392" class="muted" font-size="11">
+    TECHNOLOGIES I WORK WITH
+  </text>
+
+  <line x1="310" y1="388" x2="1145" y2="388" stroke="#475569" opacity="0.6"></line>
+
+  <g font-size="12" font-weight="600" fill="#cbd5e1" text-anchor="middle">
+
+    <text x="85" y="426">TypeScript</text>
+    <text x="205" y="426">JavaScript</text>
+    <text x="325" y="426">React</text>
+    <text x="445" y="426">Next.js</text>
+    <text x="565" y="426">Node.js</text>
+    <text x="685" y="426">Python</text>
+    <text x="805" y="426">PostgreSQL</text>
+    <text x="925" y="426">Docker</text>
+    <text x="1045" y="426">AWS</text>
+
+  </g>
+
+  <!-- BOTTOM ACCENT -->
+
+  <rect x="45" y="447" width="1110" height="1" fill="#334155"></rect>
+
+  <rect x="45" y="447" width="120" height="2" fill="url(#accent)">
+
+    <animate attributeName="x" values="45;1035;45" dur="9s" repeatCount="indefinite"></animate>
+
+  </rect>
+
+</svg>
