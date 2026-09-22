@@ -4,7 +4,7 @@
 <div align="center">
 
   <img
-    src="./download (1).svg"
+    src="banner.svg"
     alt="NEJI - Senior AI Full Stack Engineer"
     width="100%"
   />
